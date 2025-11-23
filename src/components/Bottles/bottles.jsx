@@ -1,9 +1,13 @@
-import React, { use } from "react";
+import { use, useEffect } from "react";
 
 const Bottles = ({ bottlesPromise }) => {
   const bottles = use(bottlesPromise);
   console.log(bottles);
-  return <div></div>;
+
+  return <div>
+
+    
+  </div>;
 };
 
 export default Bottles;

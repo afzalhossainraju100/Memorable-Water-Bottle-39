@@ -1,4 +1,5 @@
 import "./App.css";
+import { Suspense } from "react";
 import Bottles from "./components/Bottles/bottles";
 
 const bottlesPromise = fetch("./bouttle.json").then((res) => res.json());
