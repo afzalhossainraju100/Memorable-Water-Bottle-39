@@ -1,0 +1,58 @@
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.bottle-image {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card h2 {
+    font-size: 1.5em;
+    margin: 12px 0;
+}
+.card p {   
+    color: #555;
+    font-size: 1em;
+}
+.card .price {
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 8px;
+}
+.bottle-name-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 2px;
+}
+.stock{
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #888;
+    text-align: left;
+}
+.button-buy {
+    display: flex;
+    margin-top: 12px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: center;
+    align-items: left;
+}
+.button-buy:hover {
+    background-color: #0056b3;
+}
